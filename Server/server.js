@@ -14,6 +14,10 @@ mongoose
     .then(() => console.log('MongoDB Connected...'))
     .catch(err => console.log(err))
 
+//routes
+app.use('/api/posts', require('./routes/api/posts'));
+app.use('/api/profiles', require('./routes/api/profiles'));
+
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => console.log(`Server started on port ${port}`));
