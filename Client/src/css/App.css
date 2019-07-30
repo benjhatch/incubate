@@ -37,9 +37,7 @@ nav {
 
 .nav-link:hover {
   cursor: pointer;
-  /*
   color: #222e99;
-  */
   border-bottom: 3px solid #7680d6;
 }
 
@@ -62,7 +60,7 @@ nav {
 }
 
 .category-header {
-  margin: 15px 70px 15px 0;
+  margin: 15px 90px 15px 0;
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 2.4rem;
   font-weight: 800;
@@ -90,6 +88,25 @@ nav {
   margin-right: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+}
+
+.dropdown {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #616161;
+  padding: 10px;
+  width: 150px;
+  margin: 0 auto;
+  outline: none;
+  appearance: none;
+  background: #ffffff;
+  border: 1px solid #dadada;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+  border-color: #888888;
 }
 
 .posts-display {
