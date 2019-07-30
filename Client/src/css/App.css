@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
+
+html {
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+nav {
+  float: right;
+  margin: 42px;
+}
+
+.App {
+  margin: 0 auto;
+}
+
+.heading {
+  height: 65px;
+  border-bottom: 1px solid #888888;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #3f4ed8;
+  margin: 5px;
+  float: left;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  /*
+  color: #222e99;
+  */
+  border-bottom: 3px solid #7680d6;
+}
+
+.content {
+  width: 96%;
+  margin: 0 2%;
+}
+
+.search {
+  width: calc(100% - 23px);
+  font-size: 22px;
+  padding: 25px 10px;
+  outline: none;
+  color: #6d6d6d;
+}
+
+.categories {
+  margin-top: 20px;
+  color: #474747;
+}
+
+.category-header {
+  margin: 15px 70px 15px 0;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #608830;
+  display: inline-block;
+}
+
+.category {
+  display: inline-block;
+  margin: 10px 80px 0 0;
+  font-size: 1.2rem;
+  font-family: 'Fira Code', monospace;
+}
+
+.category:hover {
+  cursor: pointer;
+  color: #85bb42;
+}
+
+.sorting-options {
+  display: inline-block;
+}
+
+.option-header {
+  margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.posts-display {
+  margin-top: 40px;
+}
+
+.post {
+  font-family: 'Darker Grotesque', sans-serif;
+  background: #ffffff;
+  border: 0.5px solid #dadada;
+  border-radius: 3px;
+  width: 600px;
+  height: 150px;
+}
+
+.post:hover {
+  cursor: pointer;
+}
+
+.post:hover .post-title {
+  text-decoration: underline;
+}
+
+.post-info {
+  float: left;
+  width: 440px;
+  padding: 5px;
+}
+
+.post-cover {
+  float: left;
+}
+
+.post-title {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.post-author {
+  display: block;
+  font-size: 18px;
+}
+
+.post-stats {
+  float: right;
+  margin: 7px 5px 0 0;
+}
+
+.post-emoji {
+  margin: 0 4px;
+}
+
+.image-here {
+  background: #888888;
+  width: 150px;
+  height: 100%;
+  float: right;
+  border-radius: 3px;
+}
